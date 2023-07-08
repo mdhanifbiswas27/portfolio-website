@@ -8,6 +8,15 @@ body {
     background: #FD6E0A;
 }
 
+.cv-btn {
+    padding: 25px 70px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: NO;
+    border: none;
+}
+
 /* nav style */
 .logo-letter {
     color: #FD6E0A;
@@ -42,6 +51,7 @@ nav ul li a {
     height: 64px;
     flex-shrink: 0;
     color: white;
+    font-size: 20px;
 }
 
 nav h3 {
@@ -50,7 +60,55 @@ nav h3 {
     font-weight: 800;
 
 }
-.header{
+
+.header {
     background: #fff8f3;
+    width: 1600px;
+    height: 837px;
 }
 
+/* Banner design */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.banner-right img {
+    width: 584px;
+    height: 676px;
+}
+
+.banner-greeding {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.btn-secondary {
+    background-color: #ffff;
+    border: #FD6E0A solid 2px;
+    color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px 70px;
+    margin-left: 20PX;
+}
+
+.banner-header {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-left p {
+    display: flex;
+    width: 585px;
+    flex-direction: column;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
