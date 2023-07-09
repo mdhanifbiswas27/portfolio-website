@@ -27,6 +27,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-right: 150px;
+    margin-left: 130px;
 }
 
 nav>ul {
@@ -63,12 +64,9 @@ nav h3 {
 }
 
 .header {
-    background: #fff8f3;
-    /* width: 1600px;
-    height: 837px; */
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"),url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left; 
 }
 
 /* Banner design */
@@ -76,7 +74,7 @@ nav h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    margin-left: 130px;
 }
 
 .banner-left {
